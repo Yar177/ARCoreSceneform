@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sceneform_ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bear"
+            android:id="@+id/bear"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cat"
+            android:id="@+id/cat"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cow"
+            android:id="@+id/cow"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hippopotamus"
+            android:id="@+id/hippopotamus"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/koala_bear"
+            android:id="@+id/koala_bear"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lion"
+            android:id="@+id/lion"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wolverine"
+            android:id="@+id/wolverine"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/horse"
+            android:id="@+id/horse"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/reindeer"
+            android:id="@+id/reindeer"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog"
+            android:id="@+id/dog"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/elephant"
+            android:id="@+id/elephant"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ferret"
+            android:id="@+id/ferret"
+            android:contentDescription="TODO" />
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
